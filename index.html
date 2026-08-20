@@ -4,27 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHC Qampo | Tecnología Avanzada de Tratamiento de Agua</title>
-    <!-- Vinculamos la hoja de estilos externa -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Iconos para redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
     <!-- Encabezado / Menú -->
     <header>
-        <div class="logo">SHC QAMPO</div>
+        <div class="logo-container">
+            <span class="logo-icon">💧</span>
+            <div class="logo">SHC QAMPO</div>
+        </div>
         <nav>
-            <a href="#inicio">Inicio</a>
+            <a href="#inicio">¿Quiénes somos?</a>
             <a href="#servicios">Servicios</a>
-            <a href="#contacto">Contacto</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contáctanos</a>
         </nav>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
     </header>
 
     <!-- Sección Hero / Banner principal -->
     <section id="inicio" class="hero">
-        <div class="hero-content">
-            <h1>Tecnología Avanzada para el Tratamiento del Agua</h1>
-            <p>Innovación real para transformar tu forma de regar y optimizar recursos.</p>
-            <button id="cta-btn">Conoce más</button>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Tecnología avanzada de agua para transformar tu riego</h1>
+                <p class="subtitle">Innovación real para transformar tu forma de regar.</p>
+                <p class="description">
+                    Nuestro sistema de tratamiento tiene tecnología tal, que permite resolver problemas como trabajar aguas duras, evitar el taponamiento de los goteros por biofilm, mejorando la distribucion de nutrientes en el fertirriego. Además, nuestro sistema es capaz de eliminar metales pesados, cloro y otros químicos que pueden ser dañinos para la salud.
+                </p>
+                <button id="cta-btn">Conoce más</button>
+            </div>
+            <div class="hero-image">
+                <!-- Contenedor visual de la mascota corporativa -->
+                <div class="mascot-card">
+                    <div class="mascot-avatar">🛡️💧🤖</div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -66,7 +87,6 @@
         <p>&copy; 2026 SHC QAMPO. Todos los derechos reservados.</p>
     </footer>
 
-    <!-- Vinculamos el archivo de JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
